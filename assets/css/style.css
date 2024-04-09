@@ -21,14 +21,22 @@ body{
     width: auto;
 }
 
+
+
 .containertd{
     background-color: #010937;
     display: flex;
     justify-content: center;
+    
     height: 450px;
     width: 600px;
     border-radius: 15px;
     color: white;
+}
+
+#lineaddTask{
+    width: 600px;
+    height: 90px;
 }
 
 .containerlt{
@@ -40,3 +48,4 @@ body{
     border-radius: 15px;
     color: white;
 }
+
