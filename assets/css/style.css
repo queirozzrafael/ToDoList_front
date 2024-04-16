@@ -16,7 +16,7 @@ body{
 .container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 750px;
     width: auto;
 }
@@ -27,25 +27,16 @@ body{
     background-color: #010937;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 600px;
+    border-radius: 15px;
+    color: white;
+}
+
+button{
+    border-radius: 15px;
+    border-style: solid;
+    background-color: white;
     
-    height: 450px;
-    width: 600px;
-    border-radius: 15px;
-    color: white;
 }
-
-#lineaddTask{
-    width: 600px;
-    height: 90px;
-}
-
-.containerlt{
-    background-color: #010937;
-    display: flex;
-    justify-content: center;
-    height: 450px;
-    width: 600px;
-    border-radius: 15px;
-    color: white;
-}
-
